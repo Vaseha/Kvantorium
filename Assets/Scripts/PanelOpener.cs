@@ -8,7 +8,6 @@ public class PanelOpener : MonoBehaviour
 
     public void OpenPanel()
     {
-        Debug.Log("w");
         if (Panel != null)
         {
             

@@ -15,9 +15,8 @@ public class BuildSelection : MonoBehaviour
 
     public void SelectBuilding()
     {
-        
+
         gameController.Building = building;
-        Debug.Log(gameController.Building);
         gameController = FindObjectOfType<GameController>();
         BuildManager manager = gameController.GetComponent<BuildManager>();
         manager.Bild();
