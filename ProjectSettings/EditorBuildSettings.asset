@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/BildingMenu.unity
     guid: 6c0a30300ecf8ee4483aa4d2bba95db3
   - enabled: 1
-    path: Assets/Scenes/idk.unity
+    path: Assets/Scenes/ResourceCollector.unity
     guid: bc39ae7823773144fae84e4692100858
   - enabled: 1
     path: Assets/Scenes/Credits.unity
