@@ -5,13 +5,10 @@ using UnityEngine.UI;
 
 public class ResourcesController : MonoBehaviour
 {
-    public Text resourcesText;
-    [Header("Resources")]
-    public int wood;
-    public int food;
-    public int stone;
-    public int emeralds;
-    public int gold;
+    public static int food { get; set; } = 100;
+    public static int wood { get; set; } = 100;
+    public static int stone { get; set; } = 100;
+    public static int iron { get; set; } = 100;
 
     // Update is called once per frame
     void Update()

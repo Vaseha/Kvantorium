@@ -16,7 +16,7 @@ public class ColectWood : MonoBehaviour, IVirtualButtonEventHandler
     }
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        ResourseStore.wood += resorce;
+        ResourcesController.wood += resorce;
         Debug.Log("BTN Pressed");
     }
     public void OnButtonReleased(VirtualButtonBehaviour vb)

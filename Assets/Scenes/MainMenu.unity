@@ -1461,7 +1461,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2061843527}
-  m_Text: GAME NAME
+  m_Text: World Craft
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1

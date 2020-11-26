@@ -16,7 +16,7 @@ public class ColectFood : MonoBehaviour, IVirtualButtonEventHandler
     }
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        ResourseStore.food += resorce;
+        ResourcesController.food += resorce;
         Debug.Log("BTN Pressed");
     }
     public void OnButtonReleased(VirtualButtonBehaviour vb)

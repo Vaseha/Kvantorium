@@ -5,7 +5,6 @@ using UnityEngine;
 public class BuildManager : MonoBehaviour
 {
     GameController gameController;
-
     public GameObject building1;
     public GameObject building2;
     public GameObject building3;
@@ -27,9 +26,9 @@ public class BuildManager : MonoBehaviour
         switch (gameController.Building)
         {
             case 1:
-                if (gameController.food >= 10)
+                if (ResourcesController.food >= 10)
                 {
-                    gameController.food = gameController.food - 10;
+                    ResourcesController.food = ResourcesController.food - 10;
                     Instantiate(building1, spawnPoint1.transform.position, Quaternion.identity);
                 }
                 else Debug.Log("Недостаточно ресурсов");
@@ -37,9 +36,9 @@ public class BuildManager : MonoBehaviour
                 break;
 
             case 2:
-                if (gameController.wood >= 10)
+                if (ResourcesController.wood >= 10)
                 {
-                    gameController.wood = gameController.wood - 10;
+                    ResourcesController.wood = ResourcesController.wood - 10;
                     Instantiate(building2, spawnPoint2.transform.position, Quaternion.identity);
                 }
                 else Debug.Log("Недостаточно ресурсов");
@@ -47,9 +46,9 @@ public class BuildManager : MonoBehaviour
                 break;
 
             case 3:
-                if (gameController.stone >= 10)
+                if (ResourcesController.stone >= 10)
                 {
-                    gameController.stone = gameController.stone - 10;
+                    ResourcesController.stone = ResourcesController.stone - 10;
                     Instantiate(building3, spawnPoint3.transform.position, Quaternion.identity);
                 }
                 else Debug.Log("Недостаточно ресурсов");
@@ -57,9 +56,9 @@ public class BuildManager : MonoBehaviour
                 break;
 
             case 4:
-                if (gameController.iron >= 10)
+                if (ResourcesController.iron >= 10)
                 {
-                    gameController.iron = gameController.iron - 10;
+                    ResourcesController.iron = ResourcesController.iron - 10;
                     Instantiate(building4, spawnPoint4.transform.position, Quaternion.identity);
                 }
                 else Debug.Log("Недостаточно ресурсов");
