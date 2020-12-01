@@ -7,7 +7,7 @@ public class UpdateResource : MonoBehaviour
     public Text wood;
     public Text food;
     public Text stone;
-    public Text crystal;
+    public Text iron;
     public Text money;
 
     // Start is called before the first frame update
@@ -18,10 +18,10 @@ public class UpdateResource : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //wood.text = ResourceManager.wood;
-
-
-
+        wood.text = ResourcesController.wood.ToString();
+        food.text = ResourcesController.food.ToString();
+        stone.text = ResourcesController.stone.ToString();
+        iron.text = ResourcesController.iron.ToString();
 
     }
 }

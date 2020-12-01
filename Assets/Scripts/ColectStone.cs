@@ -16,7 +16,7 @@ public class ColectStone : MonoBehaviour, IVirtualButtonEventHandler
     }
     public void OnButtonPressed(VirtualButtonBehaviour vb)
     {
-        ResourseStore.stone += resorce;
+        ResourcesController.stone += resorce;
         Debug.Log("BTN Pressed");
     }
     public void OnButtonReleased(VirtualButtonBehaviour vb)

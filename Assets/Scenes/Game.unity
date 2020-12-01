@@ -181,11 +181,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 29105741}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 634, y: 473, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &56174389
 GameObject:
@@ -439,7 +439,7 @@ Transform:
   - {fileID: 1101145931}
   - {fileID: 885858703}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &217387811
 GameObject:
@@ -1369,7 +1369,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -1554,7 +1554,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &841594627
 GameObject:
@@ -1819,6 +1819,7 @@ GameObject:
   - component: {fileID: 901361739}
   - component: {fileID: 901361740}
   - component: {fileID: 901361741}
+  - component: {fileID: 901361742}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1838,7 +1839,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &901361740
 MonoBehaviour:
@@ -1872,54 +1873,23 @@ MonoBehaviour:
   spawnPoint2: {fileID: 1619912038}
   spawnPoint3: {fileID: 229711881}
   spawnPoint4: {fileID: 691776069}
---- !u!1 &1005490739
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1005490741}
-  - component: {fileID: 1005490740}
-  m_Layer: 0
-  m_Name: GameObject
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1005490740
+--- !u!114 &901361742
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005490739}
+  m_GameObject: {fileID: 901361738}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ce6496514dcd37f47a0b0fcb42803bf2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wood: {fileID: 0}
-  food: {fileID: 0}
-  stone: {fileID: 0}
-  crystal: {fileID: 0}
-  money: {fileID: 0}
---- !u!4 &1005490741
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1005490739}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  wood: {fileID: 616601844931620235}
+  food: {fileID: 616601844118189964}
+  stone: {fileID: 616601843659577377}
+  iron: {fileID: 616601844533712512}
+  money: {fileID: 616601843114683639}
 --- !u!1 &1060295252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2161,11 +2131,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1383102451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 397.5, y: 39, z: 32}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1383102453
 MonoBehaviour:
@@ -2270,7 +2240,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1579540263
 GameObject:
@@ -2642,7 +2612,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1766496594
 GameObject:
@@ -3155,7 +3125,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &2131987853
 GameObject:
@@ -3629,7 +3599,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -119.1, y: 914}
+  m_AnchoredPosition: {x: -11.6, y: 757}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &616601843920510201
@@ -3661,12 +3631,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f46ab05af778d7f44a753bc2034eef3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  resourcesText: {fileID: 0}
-  wood: 0
-  food: 0
-  stone: 0
-  emeralds: 0
-  gold: 0
 --- !u!114 &616601844118189964
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3759,7 +3723,7 @@ GameObject:
   - component: {fileID: 616601844159661869}
   - component: {fileID: 616601844159661842}
   m_Layer: 5
-  m_Name: Bread
+  m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3854,7 +3818,7 @@ GameObject:
   - component: {fileID: 616601844384340970}
   - component: {fileID: 616601844384340971}
   m_Layer: 5
-  m_Name: Gold
+  m_Name: Money
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4373,7 +4337,7 @@ GameObject:
   - component: {fileID: 616601844989022736}
   - component: {fileID: 616601844989022737}
   m_Layer: 5
-  m_Name: Emerald
+  m_Name: Iron
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
