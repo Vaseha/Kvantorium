@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class VirtualButtonClicer : MonoBehaviour, IVirtualButtonEventHandler
+public class VirtualButtonClicer : MonoBehaviour
 {
     public GameObject Сube,VirtualButton;
 
@@ -11,7 +11,9 @@ public class VirtualButtonClicer : MonoBehaviour, IVirtualButtonEventHandler
     void Start()
     {
         //VirtualButton.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
-        GameObject.Find ("Сube");
+        GameObject.Find("Сube");
+        VirtualButton.GetComponent<VirtualButtonBehaviour>().RegisterOnButtonPressed(OnButtonPressed);
+        VirtualButton.GetComponent<VirtualButtonBehaviour>().RegisterOnButtonReleased(OnButtonReleased);
         Сube.SetActive (false);
     }
 

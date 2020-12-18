@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class ColectStone : MonoBehaviour
+public class CollectIron : MonoBehaviour
 {
     public GameObject text;
     public int resorce;
@@ -17,11 +17,11 @@ public class ColectStone : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     private void OnMouseDown()
     {
-        ResourcesController.stone += resorce;
+        ResourcesController.iron += resorce;
     }
 }

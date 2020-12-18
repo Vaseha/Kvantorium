@@ -3,30 +3,25 @@ using System.Collections.Generic;
 using UnityEngine;
 using Vuforia;
 
-public class ColectFood : MonoBehaviour, IVirtualButtonEventHandler
+public class ColectFood : MonoBehaviour
 {
-    public GameObject vbBtnObj;
+    public GameObject text;
     public int resorce;
+
     // Start is called before the first frame update
     void Start()
     {
-        vbBtnObj = GameObject.Find("food");
-        vbBtnObj.GetComponent<VirtualButtonBehaviour>().RegisterEventHandler(this);
-
+        text.SetActive(false);
     }
-    public void OnButtonPressed(VirtualButtonBehaviour vb)
-    {
-        ResourcesController.food += resorce;
-        Debug.Log("BTN Pressed");
-    }
-    public void OnButtonReleased(VirtualButtonBehaviour vb)
-    {
-
-        Debug.Log("Btn Realesed");
-    }
+    
     // Update is called once per frame
     void Update()
     {
 
+    }
+
+    private void OnMouseDown()
+    {
+        ResourcesController.food += resorce;
     }
 }
